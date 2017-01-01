@@ -10,3 +10,4 @@ Files used.
 1)	s.ps1 – This is a powershell script that downloads a executable and then executes it to get an output file containing passwords. The script also emails the password file.
 2)	wp1.exe – This is the executable that decrypts the passwords stored in the Chrome browser. The executable has an option to produce a .csv file by using --o option.
 3)	Digikeyboard.h – Library file for the microcontroller.
+4) Encode.ps1 - Small powershell script to convert plain text strings into BASE64 encoded string

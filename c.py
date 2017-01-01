@@ -1,3 +1,5 @@
+#BORROWED SCRIPT 
+#Original Author https://github.com/hassaanaliw/
 import os,sys
 import sqlite3
 try:

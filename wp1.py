@@ -1,5 +1,6 @@
 #BORROWED SCRIPT 
 #Original Author https://github.com/hassaanaliw/
+#script gets the encrypted passwords stored in login data sqllite3 database file
 import os,sys
 import sqlite3
 try:

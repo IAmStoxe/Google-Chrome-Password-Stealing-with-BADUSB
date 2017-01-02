@@ -1,4 +1,4 @@
-# Stealing Google Chrome Passwords
+# Stealing Google Chrome Passwords with 1$ USB Rubber Ducky (Digispark attiny85)
 Stealing Chrome passwords with HID (Human Interface Device) emulation
 NOTE : This is for Educational purposes only. I shall not be liable for any damages caused by this.
 I DO NOT SUPPORT UNLAWFUL USE OF THIS PROJECT

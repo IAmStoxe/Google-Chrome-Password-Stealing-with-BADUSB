@@ -8,6 +8,6 @@ To demonstrate this, we use a cheap Arduino board “DIGISPARK ATTINY85”.
 This Board allows itself to be programed as a HID keyboard.
 Files used.
 1)	s.ps1 – This is a powershell script that downloads a executable and then executes it to get an output file containing passwords. The script also emails the password file.
-2)	wp1.exe – This is the executable that decrypts the passwords stored in the Chrome browser. The executable has an option to produce a .csv file by using --o option.
-3)	Digikeyboard.h – Library file for the microcontroller.
+2)	wp1.exe – This is the executable that decrypts the saved passwords stored in the Login Data db file. The executable has an option to produce a .csv output file by using --o option.
+3)	Digikeyboard.h – Keyboard Library for the microcontroller.
 4) Encode.ps1 - Small powershell script to convert plain text strings into BASE64 encoded string
